@@ -7,7 +7,7 @@ A secure and cost-effective electronic voting system built using **Blockchain**,
 
 ## 📌 Project Highlights
 
-- 🔐 **Two-Factor Authentication** using **MongoDB** (user database) and **Twilio SMS API** for OTP verification.
+- 🔐 **Two-Factor Authentication** using **MongoDB** (user database) and **SMS API** for OTP verification.
 - ⛓️ **Blockchain Integration** using **Ethereum Smart Contracts** hosted via **Remix IDE** and tested on **Ganache** local blockchain.
 - 💻 **Web Application** developed with **ReactJS** for a clean, responsive user interface.
 - ⚙️ **Smart Contract Optimization** using the **SOPES** tool for lower gas fees and improved execution.
@@ -20,12 +20,12 @@ A secure and cost-effective electronic voting system built using **Blockchain**,
 
 - The system uses a **Two-Factor Authentication (2FA)** mechanism:
   - First, the user credentials are validated via a **MongoDB**-based login system.
-  - Then, an OTP is sent to the user's registered mobile number via **Twilio API** for SMS-based verification.
+  - Then, an OTP is sent to the user's registered mobile number via **SMS API** for SMS-based verification.
 
 ### Step 2: Vote Casting via Blockchain
 
 - After authentication, voters can cast their votes through a **ReactJS** frontend.
-- The vote is recorded as a hashed transaction on the **Ethereum blockchain** (via **Ganache** local network).
+- The vote is recorded as a hashed transaction on the **Ethereum blockchain** (via **Ganache** local Ethereum chain).
 - The smart contracts responsible for vote casting and verification are deployed and tested using **Remix IDE**.
 
 ### Step 3: Vote Hash Storage and Tally
